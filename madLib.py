@@ -5,6 +5,7 @@
 #Output: Hello Full name, A pressention of the age and profession. Scamble name.
 
 import datetime
+from time import sleep
 
 #The chat 'Robot'
 
@@ -30,3 +31,10 @@ inputRandomtwo = int(inputRandomtwo)
 newLastName = lastName[0:inputRandomtwo] + lastName[inputRandomtwo].upper() + lastName[inputRandomtwo +1:len(lastName)]
 print(newFirstName + ' ' + newLastName)
 print('Well maybe im not a BIG TECH AI, but i think I can do some funny things with you full name')
+sleep (0.6)
+print('Well let me first fix you name back to some more normal stuff :) ')
+sleep (0.6)
+print(' Bim \n Bam \n Busse')
+sleep (0.6)
+print (firstName.title + ' ' + lastName.title() + ' Are you happy now???')
+
