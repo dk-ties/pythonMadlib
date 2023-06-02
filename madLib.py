@@ -19,5 +19,14 @@ age = int(inputAge)
 print (type(age))
 print (type(today.year))
 yearOfBirth = str(age-today.year)
-#profession = input 
-print('Wow, so you must have been born around' + yearOfBirth + ' \n')
+profession = input('Wow, so you must have been born around' + yearOfBirth + ' \nSo let me know, what are you doing in your daily work? \n')
+print('Okay thats sound cool. Well are you up for a little play?\n')
+inputRandom = input('Please give me a random number between 1 and ' + str(len(firstName)) +' ' )
+inputRandom = int(inputRandom)
+newFirstName = firstName[0:inputRandom] + firstName[inputRandom].upper() + firstName[inputRandom +1:len(firstName)]
+print(newFirstName+ ' ' + lastName)
+inputRandomtwo = input('Hah, saw you that??? let mess up you last name too \n Please give me a random number between 1 and ' + str(len(lastName)) + ' ')
+inputRandomtwo = int(inputRandomtwo)
+newLastName = lastName[0:inputRandomtwo] + lastName[inputRandomtwo].upper() + lastName[inputRandomtwo +1:len(lastName)]
+print(newFirstName + ' ' + newLastName)
+print('Well maybe im not a BIG TECH AI, but i think I can do some funny things with you full name')
