@@ -23,3 +23,10 @@ My Idea:
 Make a "chat robot" that will take a few input, and play around with them.
 Indput: Name, Last name, Age, Profession
 Output: Hello Full name, A pressention of the age and profession. Scamble name.
+
+#2 Project: Guess the number (vs computer)
+My Idea:
+Create a small guess the number, just in terminal
+Output some print,
+Input a guess
+Output if it correct, or needs to be warmer or colder.
