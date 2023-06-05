@@ -11,7 +11,10 @@ The plan is to take inspiration of the described project, and do it my way. If I
 
 I started this repo: 01-06-2023 - And my goal is to end it by the exit of 2023.
 
-With me the absolutlit best of luck...
+the 04-06-2023 I also started a blog, to document my journey from zero to actual Python programmer... You are more then welcome to step by and say Hallo.
+Blog: https://dkties.hashnode.dev/
+
+wish me the absolutlit best of luck...
 
 Mattias
 
