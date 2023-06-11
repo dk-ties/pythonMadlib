@@ -30,3 +30,72 @@ Create a small guess the number, just in terminal
 Output some print,
 Input a guess
 Output if it correct, or needs to be warmer or colder.
+
+#3 Guess the Number Game (user)
+My Idea:
+
+#4 Rock, paper, scissors
+My Idea:
+
+#5 Hangman
+My Idea:
+
+#6 Countdown Timer
+My Idea:
+
+#7 Password Generator
+My Idea:
+
+#8 QR code encoder / decoder
+My Idea:
+
+#9 Tic-Tac-Toe
+My Idea:
+
+#10 Tic-Tac-Toe AI
+My Idea:
+
+#11 Binary Search
+My Idea:
+
+#12 Minesweeper
+My Idea:
+
+#13 Sudoku Solver
+My Idea:
+
+#14 Photo manipulation in Python
+My Idea:
+
+#15 Markov Chain Text Composer
+My Idea:
+
+#16 Pong
+My Idea:
+
+#17 Snake
+My Idea:
+
+#18 Connect Four
+My Idea:
+
+#19 Tetris
+My Idea:
+
+#20 Online Multiplayer Game
+My Idea:
+
+#21 Web Scraping Program
+My Idea:
+
+#22 Bulk file renamer
+My Idea:
+
+#23 Weather Program
+My Idea:
+
+#24 Code a Discord Bot with Python - Host for Free in the Cloud
+My Idea:
+
+#25 Space invaders game
+My Idea:
