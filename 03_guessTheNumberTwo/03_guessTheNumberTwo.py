@@ -9,6 +9,18 @@ Input a guess
 Output if it correct, or needs to be warmer or colder. 
 switch round, after each succesfull guess"""
 
+playerOne = {
+    "round": 0 ,
+    "guess": 0
+}
+playerTwo = {
+    "round": 0 ,
+    "guess": 0
+}
+
+
+
+
 
 def getPlayerGuess():
     getPlayerGuessStatus = True
@@ -32,22 +44,24 @@ print(getPlayerGuess())
 
 
 
-gameScore = True
-computerGuess =  random.randint(0,10)
-print(computerGuess)
-gameScore = 0
-while gameScore < 5:
-        playerGuess = getPlayerGuess()
-        if playerGuess < computerGuess:
-            print("Ohh you are close are you, try a bit warmer")
-            continue
-        elif playerGuess > computerGuess:
-            print("Ohh close one, try a bit colder")
-            continue
-        elif playerGuess == computerGuess:
-            print("BOOOOM you nailed it GOOD JOB")
-            gameScore = gameScore+1
-            print(f'Score:  {gameScore}')
-            computerGuess =  random.randint(0,10)
-            print(computerGuess)
-print('And you are the BIG WINNER!!!!!')
+def main():
+    if playerOne.round > playerTwo.round:
+            playerOne
+        while gameScore < 5:
+                playerGuess = getPlayerGuess()
+                if playerGuess < computerGuess:
+                    print("Ohh you are close are you, try a bit warmer")
+                    continue
+                elif playerGuess > computerGuess:
+                    print("Ohh close one, try a bit colder")
+                    continue
+                elif playerGuess == computerGuess:
+                    print("BOOOOM you nailed it GOOD JOB")
+                    gameScore = gameScore+1
+                    print(f'Score:  {gameScore}')
+                    computerGuess =  random.randint(0,10)
+                    print(computerGuess)
+        print('And you are the BIG WINNER!!!!!')
+
+
+""" How to make this to a two player game? """
