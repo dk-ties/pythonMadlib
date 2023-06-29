@@ -41,7 +41,8 @@ My Idea: Simply Rock, Paper and Scissors game vs computer.
 Game loop with best of 5.
 
 #5 Hangman
-My Idea:
+My Idea: I got a list from (https://github.com/kying18/hangman/blob/master/words.py) and will find a random word in this list
+Then i will split it up in x kategory, and then start taking input from player, if input is wrong, something will "fall off " a figued until its "Die " or something like that.
 
 #6 Countdown Timer
 My Idea:
