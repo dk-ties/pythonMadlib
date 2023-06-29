@@ -32,10 +32,13 @@ Input a guess
 Output if it correct, or needs to be warmer or colder.
 
 #3 Guess the Number Game (user)
-My Idea:
+My Idea: Take a copy of the Project 2. and create a pvp game loop
+Player 1 start by pick a number, Then player 2 have to guess,
+Switch after one round
 
 #4 Rock, paper, scissors
-My Idea:
+My Idea: Simply Rock, Paper and Scissors game vs computer.
+Game loop with best of 5.
 
 #5 Hangman
 My Idea:

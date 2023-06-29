@@ -38,6 +38,7 @@ def getPlayerGuess(player):
             else:
                 getPlayerGuessStatus = False
             print(f'Here it is :) {playerGuess}')
+            player["guess"] += 1
         except:
             print("Ohh did you not enter a number?")
             print(playerGuess)
