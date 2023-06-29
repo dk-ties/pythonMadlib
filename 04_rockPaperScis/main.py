@@ -34,5 +34,31 @@ choises = ['rock', 'paper', 'scissor']
 
 #Game loop
 """ 
+gameRound = 0
+computerPoint = 0
+playerPoint = 0
 
+while gameRound < 5: 
+    pcPick = compPickFunction()
+    plPick = PlayerPickFunction()
+        if pcPic == plPick
+            continue
+        elif pcPic = rock and plPick = paper
+            playerPoint += 1
+            print(f'HepHey Player win: {playerPoint}/5')
+            break
+        elif pcPic = paper and plPick = Scissor
+            print(f'HepHey Player win: {playerPoint}/5')
+            playerPoint += 1
+            break
+        elif pcPic = scissor and plPick = rock
+            print(f'HepHey Player win: {playerPoint}/5')
+            playerPoint += 1
+            break
+        else
+            print(f'HepHey Player win: {computerPoint}/5')
+            computerPoint += 1
+            break
+    gameRound += 1
+        
 """
