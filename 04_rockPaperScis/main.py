@@ -1,36 +1,44 @@
 #4 Rock, paper, scissors
 #My Idea: Simply Rock, Paper and Scissors game vs computer.
 #Game loop with best of 5.
-
+import random
 
 
 #Overall Varib
 choises = ['rock', 'paper', 'scissor']
 
 #PsudoCode
-""" 
-#compPickFunction
-    choice = random(1,3) 
-        if choice == 1:
-            choice = 'rock'
-        elif choice == 1:
-            choice = 'paper'
-        elif choice == 1:
-            choice = 'scissor'
+
+#function for pcPick
+def compPickFunction():
+    choice = random.randint(1,3) 
+    if choice == 1:
+        choice = 'rock'
+    elif choice == 2:
+        choice = 'paper'
+    elif choice == 3:
+        choice = 'scissor'
     return(choice)
-"""
 
-"""
-# PlayerPickFunction
+print(compPickFunction())
 
-    playerChoice = input(f'Please choose:{choises})
+#Function for plPick
+def PlayerPickFunction():
+    while True:
+        playerChoice = input(f'Please choose:{choises}')
+        playerChoice = playerChoice.lower()
         try:
-            playerChoice in choises
-                return playerChoise
+            if playerChoice in choises:
+             break
         except:
             print(f'Oh please pick one of the possible choicse {choises}')
+            continue
+    return (playerChoice)
             
-# """
+print(PlayerPickFunction())
+
+
+
 
 #Game loop
 """ 
